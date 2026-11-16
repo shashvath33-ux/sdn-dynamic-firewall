@@ -1,0 +1,4 @@
+2026-11-15 22:17:02.315 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=2.913ms | from=10.0.0.254:34308
+2026-11-15 22:17:07.328 | ALLOW   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.047ms | from=10.0.0.254:34308
+2026-11-15 22:17:32.945 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=4.284ms | from=10.0.0.254:34308
+2026-11-15 22:17:33.134 | LOGGER_STOP | {"total_events": 3, "by_event": {"ALLOW": 3}, "malformed": 0}

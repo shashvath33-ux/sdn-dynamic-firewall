@@ -1,0 +1,57 @@
+[
+  {
+    "check": "h1 normal access works before the attack",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "restricted-port attempts never connect",
+    "pass": true,
+    "detail": "{'timeout': 8}"
+  },
+  {
+    "check": "DENY events logged centrally",
+    "pass": true,
+    "detail": "n=3"
+  },
+  {
+    "check": "repeated denials escalate to BLOCK",
+    "pass": true,
+    "detail": "repeated unauthorised access: 3 denials in 30s"
+  },
+  {
+    "check": "blocked host cannot use the allowed app port either",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "other client unaffected during the block",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "automatic recovery after the block timeout",
+    "pass": true,
+    "detail": "(~4.3s after first retry)"
+  },
+  {
+    "check": "UNBLOCK event logged",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "h1 works with the controller up",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "new connections fail while the controller is down (fail-secure)",
+    "pass": true,
+    "detail": ""
+  },
+  {
+    "check": "service recovers after the controller restarts",
+    "pass": true,
+    "detail": "(~1.1s)"
+  }
+]

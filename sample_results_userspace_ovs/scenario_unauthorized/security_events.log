@@ -1,0 +1,10 @@
+2026-10-23 14:50:25.542 | INFO    | src=- dst=- dport=- proto=- | reason=switch 1 connected (mode=dynamic) | latency=1013.46ms | from=10.0.0.254:49342
+2026-10-23 14:50:25.543 | ALLOW   | src=10.0.0.254 dst=10.0.0.100 dport=9999 proto=TCP | reason=permitted by policy | latency=1009.755ms | from=10.0.0.254:49342
+2026-10-23 14:50:31.425 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.962ms | from=10.0.0.254:49342
+2026-10-23 14:50:31.509 | DENY    | src=10.0.0.3 dst=10.0.0.10 dport=6000 proto=TCP | reason=restricted port 6000 | latency=1.243ms | from=10.0.0.254:49342
+2026-10-23 14:50:33.518 | DENY    | src=10.0.0.3 dst=10.0.0.10 dport=6000 proto=TCP | reason=restricted port 6000 | latency=3.747ms | from=10.0.0.254:49342
+2026-10-23 14:50:35.531 | DENY    | src=10.0.0.3 dst=10.0.0.10 dport=6000 proto=TCP | reason=restricted port 6000 | latency=2.189ms | from=10.0.0.254:49342
+2026-10-23 14:50:35.532 | BLOCK   | src=10.0.0.3 dst=10.0.0.10 dport=6000 proto=TCP | reason=repeated unauthorised access: 3 denials in 30s | timeout=10s | latency=2.616ms | from=10.0.0.254:49342
+2026-10-23 14:50:45.693 | UNBLOCK | src=10.0.0.3 dst=- dport=- proto=- | reason=block timeout expired | latency=0.602ms | from=10.0.0.254:49342
+2026-10-23 14:50:46.343 | ALLOW   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.276ms | from=10.0.0.254:49342
+2026-10-23 14:50:47.573 | LOGGER_STOP | {"total_events": 9, "by_event": {"INFO": 1, "ALLOW": 3, "DENY": 3, "BLOCK": 1, "UNBLOCK": 1}, "malformed": 0}

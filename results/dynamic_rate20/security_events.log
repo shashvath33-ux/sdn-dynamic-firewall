@@ -1,0 +1,9 @@
+2026-11-15 22:19:01.040 | INFO    | src=- dst=- dport=- proto=- | reason=switch 1 connected (mode=dynamic) | latency=1062.215ms | from=10.0.0.254:54544
+2026-11-15 22:19:06.772 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.237ms | from=10.0.0.254:54544
+2026-11-15 22:19:11.826 | ALLOW   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.116ms | from=10.0.0.254:54544
+2026-11-15 22:19:12.279 | BLOCK   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=rate limit exceeded: 10 new connections in 3s | timeout=10s | latency=3.182ms | from=10.0.0.254:54544
+2026-11-15 22:19:22.422 | UNBLOCK | src=10.0.0.3 dst=- dport=- proto=- | reason=block timeout expired | latency=2.181ms | from=10.0.0.254:54544
+2026-11-15 22:19:22.671 | BLOCK   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=rate limit exceeded: 10 new connections in 3s | timeout=10s | latency=4.55ms | from=10.0.0.254:54544
+2026-11-15 22:19:32.961 | UNBLOCK | src=10.0.0.3 dst=- dport=- proto=- | reason=block timeout expired | latency=1.361ms | from=10.0.0.254:54544
+2026-11-15 22:19:37.315 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=0.968ms | from=10.0.0.254:54544
+2026-11-15 22:19:37.658 | LOGGER_STOP | {"total_events": 8, "by_event": {"INFO": 1, "ALLOW": 3, "BLOCK": 2, "UNBLOCK": 2}, "malformed": 0}

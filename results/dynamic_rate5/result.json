@@ -1,0 +1,54 @@
+{
+  "row": {
+    "mode": "dynamic",
+    "attack_rate": 5,
+    "legit_success": 1.0,
+    "legit_avg_ms": 10.38,
+    "legit_p95_ms": 15.15,
+    "before_success": 1.0,
+    "during_success": 1.0,
+    "during_avg_ms": 10.6,
+    "after_success": 1.0,
+    "time_to_block_s": 1.806,
+    "block_decision_ms": 1791.4,
+    "blocks": 2,
+    "unblocks": 2,
+    "attacker_conns_reached_server": 17,
+    "attacker_conns_held": 17,
+    "server_rejected_busy": 0,
+    "alert_latency_ms": 1.26
+  },
+  "bench": {
+    "mode": "bench",
+    "t_start": 1794761305.746,
+    "t_end": 1794761335.746,
+    "requests": 51,
+    "ok": 51,
+    "success_rate": 1.0,
+    "avg_latency_ms": 10.38,
+    "p95_latency_ms": 15.15,
+    "by_status": {
+      "ok": 51
+    }
+  },
+  "flood": {
+    "mode": "flood",
+    "rate": 5.0,
+    "t_start": 1794761310.771,
+    "t_end": 1794761325.772,
+    "attempts": 75,
+    "connected": 17,
+    "held": 17,
+    "busy": 0,
+    "timeout": 58,
+    "refused": 0,
+    "reset": 0,
+    "error": 0
+  },
+  "server": {
+    "accepted": 69,
+    "rejected_busy": 0,
+    "active": 1,
+    "messages": 69
+  }
+}

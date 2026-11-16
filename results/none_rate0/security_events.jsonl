@@ -1,0 +1,1 @@
+{"alert_latency_ms": 1022.422, "event": "INFO", "id": 1, "reason": "switch 1 connected (mode=none)", "recv_time": "2026-11-15T22:14:11.500", "recv_ts": 1794761051.500497, "sender": "10.0.0.254:33394", "ts": 1794761050.4780757}

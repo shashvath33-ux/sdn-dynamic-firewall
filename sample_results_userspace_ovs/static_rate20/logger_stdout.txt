@@ -1,0 +1,2 @@
+[logger] listening on 0.0.0.0:9999  (logs: /home/claude/dynamic-firewall/results/static_rate20/security_events.log, /home/claude/dynamic-firewall/results/static_rate20/security_events.jsonl)
+[logger] stopped. summary: {"uptime_s": 36.8, "total_events": 5, "by_event": {"INFO": 1, "ALLOW": 4}, "top_sources": {"10.0.0.1": 2, "10.0.0.254": 1, "10.0.0.3": 1}, "malformed": 0, "connections": 1}

@@ -1,0 +1,6 @@
+sh echo "=== h1 (legitimate) starts requests; h3 (attacker) floods in 3 s ==="
+h1 python3 tcp_client.py --mode bench --ip 10.0.0.10 --duration 25 &
+h3 python3 tcp_client.py --mode flood --ip 10.0.0.10 --rate 20 --duration 10 --start-delay 3
+sh echo "=== waiting for the h1 results ==="
+sh sleep 8
+h1 echo bench-finished

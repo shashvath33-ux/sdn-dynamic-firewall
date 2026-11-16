@@ -1,0 +1,2 @@
+2026-11-15 22:14:11.500 | INFO    | src=- dst=- dport=- proto=- | reason=switch 1 connected (mode=none) | latency=1022.422ms | from=10.0.0.254:33394
+2026-11-15 22:14:48.348 | LOGGER_STOP | {"total_events": 1, "by_event": {"INFO": 1}, "malformed": 0}

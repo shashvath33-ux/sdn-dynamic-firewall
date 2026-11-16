@@ -1,0 +1,10 @@
+mode,attack_rate,legit_success,legit_avg_ms,legit_p95_ms,before_success,during_success,during_avg_ms,after_success,time_to_block_s,block_decision_ms,blocks,unblocks,attacker_conns_reached_server,attacker_conns_held,server_rejected_busy,alert_latency_ms
+none,0,1.0,11.69,21.08,,,,,,,0,0,,,0,1022.42
+static,0,1.0,10.5,13.64,,,,,,,0,0,,,0,2.11
+static,5,0.8302,11.25,17.65,1.0,0.654,11.3,1.0,,,0,0,75,51,33,2.04
+static,20,0.4833,10.31,14.42,1.0,0.107,12.2,1.0,,,0,0,300,60,271,1.31
+static,50,0.3793,13.61,19.8,1.0,0.0,,1.0,,,0,0,750,60,726,2.91
+dynamic,0,1.0,10.65,16.25,,,,,,,0,0,,,0,1.58
+dynamic,5,1.0,10.38,15.15,1.0,1.0,10.6,1.0,1.806,1791.4,2,2,17,17,0,1.26
+dynamic,20,1.0,11.14,15.52,1.0,1.0,11.3,1.0,0.46,451.2,2,2,18,18,0,1.77
+dynamic,50,1.0,10.28,14.9,1.0,1.0,9.7,1.0,0.194,180.6,2,2,18,17,0,1.69

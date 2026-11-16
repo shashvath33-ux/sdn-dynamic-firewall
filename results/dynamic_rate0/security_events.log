@@ -1,0 +1,4 @@
+2026-11-15 22:17:38.217 | INFO    | src=- dst=- dport=- proto=- | reason=switch 1 connected (mode=dynamic) | latency=1039.871ms | from=10.0.0.254:55576
+2026-11-15 22:17:43.908 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.033ms | from=10.0.0.254:55576
+2026-11-15 22:18:14.246 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.577ms | from=10.0.0.254:55576
+2026-11-15 22:18:14.356 | LOGGER_STOP | {"total_events": 3, "by_event": {"INFO": 1, "ALLOW": 2}, "malformed": 0}

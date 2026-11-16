@@ -1,0 +1,6 @@
+loading app /home/shashvath/Desktop/CN Mini Project/dynamic-firewall/firewall_controller.py
+loading app ryu.controller.ofp_handler
+instantiating app /home/shashvath/Desktop/CN Mini Project/dynamic-firewall/firewall_controller.py of SDNFirewall
+SDNFirewall started: mode=dynamic syn_threshold=10/3.0s block_timeout=10s
+instantiating app ryu.controller.ofp_handler of OFPHandler
+switch 1 connected, table-miss installed

@@ -1,0 +1,2 @@
+[server] listening on 0.0.0.0:5000 (max_clients=20, idle_timeout=6s)
+[server] stopped. stats: {"accepted": 90, "rejected_busy": 271, "active": 0, "messages": 90}

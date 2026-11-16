@@ -1,0 +1,2 @@
+[logger] listening on 0.0.0.0:9999  (logs: /home/claude/dynamic-firewall/results/scenario_controller_failure/security_events.log, /home/claude/dynamic-firewall/results/scenario_controller_failure/security_events.jsonl)
+[logger] stopped. summary: {"uptime_s": 23.1, "total_events": 5, "by_event": {"INFO": 2, "ALLOW": 3}, "top_sources": {"10.0.0.1": 2, "10.0.0.254": 1}, "malformed": 0, "connections": 2}

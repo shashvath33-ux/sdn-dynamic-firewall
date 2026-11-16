@@ -1,0 +1,2 @@
+[logger] listening on 0.0.0.0:9999  (logs: /home/shashvath/Desktop/CN Mini Project/dynamic-firewall/results/scenario_controller_failure/security_events.log, /home/shashvath/Desktop/CN Mini Project/dynamic-firewall/results/scenario_controller_failure/security_events.jsonl)
+[logger] stopped. summary: {"uptime_s": 23.4, "total_events": 4, "by_event": {"INFO": 2, "ALLOW": 2}, "top_sources": {"10.0.0.1": 2}, "malformed": 0, "connections": 2}

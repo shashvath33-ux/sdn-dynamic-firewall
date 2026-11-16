@@ -1,0 +1,2 @@
+[logger] listening on 0.0.0.0:9999  (logs: /home/shashvath/Desktop/CN Mini Project/dynamic-firewall/results/static_rate20/security_events.log, /home/shashvath/Desktop/CN Mini Project/dynamic-firewall/results/static_rate20/security_events.jsonl)
+[logger] stopped. summary: {"uptime_s": 34.6, "total_events": 3, "by_event": {"ALLOW": 3}, "top_sources": {"10.0.0.1": 2, "10.0.0.3": 1}, "malformed": 0, "connections": 1}

@@ -1,0 +1,8 @@
+2026-11-15 22:18:25.751 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=2.846ms | from=10.0.0.254:53110
+2026-11-15 22:18:30.787 | ALLOW   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=2.203ms | from=10.0.0.254:53110
+2026-11-15 22:18:32.577 | BLOCK   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=rate limit exceeded: 10 new connections in 3s | timeout=10s | latency=1.136ms | from=10.0.0.254:53110
+2026-11-15 22:18:42.772 | UNBLOCK | src=10.0.0.3 dst=- dport=- proto=- | reason=block timeout expired | latency=0.636ms | from=10.0.0.254:53110
+2026-11-15 22:18:43.575 | BLOCK   | src=10.0.0.3 dst=10.0.0.10 dport=5000 proto=TCP | reason=rate limit exceeded: 10 new connections in 3s | timeout=10s | latency=0.955ms | from=10.0.0.254:53110
+2026-11-15 22:18:53.822 | UNBLOCK | src=10.0.0.3 dst=- dport=- proto=- | reason=block timeout expired | latency=1.433ms | from=10.0.0.254:53110
+2026-11-15 22:18:55.825 | ALLOW   | src=10.0.0.1 dst=10.0.0.10 dport=5000 proto=TCP | reason=permitted by policy | latency=1.256ms | from=10.0.0.254:53110
+2026-11-15 22:18:56.533 | LOGGER_STOP | {"total_events": 7, "by_event": {"ALLOW": 3, "BLOCK": 2, "UNBLOCK": 2}, "malformed": 0}
